@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD447F38DD64F7FB337B400 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 176DDFE6011041A7BD4A32FB /* libPods.a */; };
+		CDB9423E17D48302002DBF02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB9423D17D48302002DBF02 /* UIKit.framework */; };
+		CDB9424017D48302002DBF02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB9423F17D48302002DBF02 /* Foundation.framework */; };
+		CDB9424217D48302002DBF02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB9424117D48302002DBF02 /* CoreGraphics.framework */; };
+		CDB9424817D48302002DBF02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDB9424617D48302002DBF02 /* InfoPlist.strings */; };
+		CDB9424A17D48302002DBF02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB9424917D48302002DBF02 /* main.m */; };
+		CDB9424E17D48302002DBF02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB9424D17D48302002DBF02 /* AppDelegate.m */; };
+		CDB9425017D48302002DBF02 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB9424F17D48302002DBF02 /* Default.png */; };
+		CDB9425217D48302002DBF02 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB9425117D48302002DBF02 /* Default@2x.png */; };
+		CDB9425417D48302002DBF02 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB9425317D48302002DBF02 /* Default-568h@2x.png */; };
+		CDB9425717D48302002DBF02 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB9425617D48302002DBF02 /* RootViewController.m */; };
+		CDB9425A17D48302002DBF02 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB9425917D48302002DBF02 /* DataViewController.m */; };
+		CDB9425D17D48302002DBF02 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB9425C17D48302002DBF02 /* ModelController.m */; };
+		CDB9426017D48302002DBF02 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB9425E17D48302002DBF02 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		176DDFE6011041A7BD4A32FB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E4357861DE45EDA85296D1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		CDB9423A17D48302002DBF02 /* ScrumScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrumScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB9423D17D48302002DBF02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDB9423F17D48302002DBF02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDB9424117D48302002DBF02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDB9424517D48302002DBF02 /* ScrumScore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrumScore-Info.plist"; sourceTree = "<group>"; };
+		CDB9424717D48302002DBF02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDB9424917D48302002DBF02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDB9424B17D48302002DBF02 /* ScrumScore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrumScore-Prefix.pch"; sourceTree = "<group>"; };
+		CDB9424C17D48302002DBF02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDB9424D17D48302002DBF02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDB9424F17D48302002DBF02 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CDB9425117D48302002DBF02 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CDB9425317D48302002DBF02 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CDB9425517D48302002DBF02 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CDB9425617D48302002DBF02 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CDB9425817D48302002DBF02 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		CDB9425917D48302002DBF02 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		CDB9425B17D48302002DBF02 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		CDB9425C17D48302002DBF02 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		CDB9425F17D48302002DBF02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDB9423717D48302002DBF02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB9423E17D48302002DBF02 /* UIKit.framework in Frameworks */,
+				CDB9424017D48302002DBF02 /* Foundation.framework in Frameworks */,
+				CDB9424217D48302002DBF02 /* CoreGraphics.framework in Frameworks */,
+				0DD447F38DD64F7FB337B400 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDB9423117D48302002DBF02 = {
+			isa = PBXGroup;
+			children = (
+				CDB9424317D48302002DBF02 /* PageViewDemo */,
+				CDB9423C17D48302002DBF02 /* Frameworks */,
+				CDB9423B17D48302002DBF02 /* Products */,
+				79E4357861DE45EDA85296D1 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		CDB9423B17D48302002DBF02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9423A17D48302002DBF02 /* ScrumScore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDB9423C17D48302002DBF02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9423D17D48302002DBF02 /* UIKit.framework */,
+				CDB9423F17D48302002DBF02 /* Foundation.framework */,
+				CDB9424117D48302002DBF02 /* CoreGraphics.framework */,
+				176DDFE6011041A7BD4A32FB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDB9424317D48302002DBF02 /* PageViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9424C17D48302002DBF02 /* AppDelegate.h */,
+				CDB9424D17D48302002DBF02 /* AppDelegate.m */,
+				CDB9425517D48302002DBF02 /* RootViewController.h */,
+				CDB9425617D48302002DBF02 /* RootViewController.m */,
+				CDB9425817D48302002DBF02 /* DataViewController.h */,
+				CDB9425917D48302002DBF02 /* DataViewController.m */,
+				CDB9425B17D48302002DBF02 /* ModelController.h */,
+				CDB9425C17D48302002DBF02 /* ModelController.m */,
+				CDB9425E17D48302002DBF02 /* MainStoryboard.storyboard */,
+				CDB9424417D48302002DBF02 /* Supporting Files */,
+			);
+			path = PageViewDemo;
+			sourceTree = "<group>";
+		};
+		CDB9424417D48302002DBF02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9424517D48302002DBF02 /* ScrumScore-Info.plist */,
+				CDB9424617D48302002DBF02 /* InfoPlist.strings */,
+				CDB9424917D48302002DBF02 /* main.m */,
+				CDB9424B17D48302002DBF02 /* ScrumScore-Prefix.pch */,
+				CDB9424F17D48302002DBF02 /* Default.png */,
+				CDB9425117D48302002DBF02 /* Default@2x.png */,
+				CDB9425317D48302002DBF02 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDB9423917D48302002DBF02 /* ScrumScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB9426317D48302002DBF02 /* Build configuration list for PBXNativeTarget "ScrumScore" */;
+			buildPhases = (
+				8583E07CAF214997B5F7A81E /* Check Pods Manifest.lock */,
+				CDB9423617D48302002DBF02 /* Sources */,
+				CDB9423717D48302002DBF02 /* Frameworks */,
+				CDB9423817D48302002DBF02 /* Resources */,
+				4300FFFBC24546EDA40F08CB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrumScore;
+			productName = PageViewDemo;
+			productReference = CDB9423A17D48302002DBF02 /* ScrumScore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDB9423217D48302002DBF02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Forrest Shi";
+			};
+			buildConfigurationList = CDB9423517D48302002DBF02 /* Build configuration list for PBXProject "ScrumScore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDB9423117D48302002DBF02;
+			productRefGroup = CDB9423B17D48302002DBF02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDB9423917D48302002DBF02 /* ScrumScore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDB9423817D48302002DBF02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB9424817D48302002DBF02 /* InfoPlist.strings in Resources */,
+				CDB9425017D48302002DBF02 /* Default.png in Resources */,
+				CDB9425217D48302002DBF02 /* Default@2x.png in Resources */,
+				CDB9425417D48302002DBF02 /* Default-568h@2x.png in Resources */,
+				CDB9426017D48302002DBF02 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4300FFFBC24546EDA40F08CB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8583E07CAF214997B5F7A81E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDB9423617D48302002DBF02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB9424A17D48302002DBF02 /* main.m in Sources */,
+				CDB9424E17D48302002DBF02 /* AppDelegate.m in Sources */,
+				CDB9425717D48302002DBF02 /* RootViewController.m in Sources */,
+				CDB9425A17D48302002DBF02 /* DataViewController.m in Sources */,
+				CDB9425D17D48302002DBF02 /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDB9424617D48302002DBF02 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB9424717D48302002DBF02 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CDB9425E17D48302002DBF02 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB9425F17D48302002DBF02 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDB9426117D48302002DBF02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDB9426217D48302002DBF02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDB9426417D48302002DBF02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79E4357861DE45EDA85296D1 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageViewDemo/ScrumScore-Prefix.pch";
+				INFOPLIST_FILE = "PageViewDemo/ScrumScore-Info.plist";
+				PRODUCT_NAME = ScrumScore;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CDB9426517D48302002DBF02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79E4357861DE45EDA85296D1 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageViewDemo/ScrumScore-Prefix.pch";
+				INFOPLIST_FILE = "PageViewDemo/ScrumScore-Info.plist";
+				PRODUCT_NAME = ScrumScore;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDB9423517D48302002DBF02 /* Build configuration list for PBXProject "ScrumScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB9426117D48302002DBF02 /* Debug */,
+				CDB9426217D48302002DBF02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB9426317D48302002DBF02 /* Build configuration list for PBXNativeTarget "ScrumScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB9426417D48302002DBF02 /* Debug */,
+				CDB9426517D48302002DBF02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDB9423217D48302002DBF02 /* Project object */;
+}
