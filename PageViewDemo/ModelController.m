@@ -30,8 +30,11 @@
     self = [super init];
     if (self) {
         // Create the data model.
-        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-        _pageData = [[dateFormatter monthSymbols] copy];
+//        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+//        _pageData = [[dateFormatter monthSymbols] copy];
+        
+        _pageData = @[[NSNumber numberWithInt:0],@"1/2",[NSNumber numberWithInt:1],[NSNumber numberWithInt:2],[NSNumber numberWithInt:3],[NSNumber numberWithInt:5],[NSNumber numberWithInt:8],[NSNumber numberWithInt:13],[NSNumber numberWithInt:20],[NSNumber numberWithInt:40],@"?"];
+        
     }
     return self;
 }

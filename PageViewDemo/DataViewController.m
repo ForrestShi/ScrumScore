@@ -7,6 +7,8 @@
 //
 
 #import "DataViewController.h"
+#import <FlatUIKit/UIFont+FlatUI.h>
+#import <FlatUIKit/UIColor+FlatUI.h>
 
 @interface DataViewController ()
 
@@ -18,6 +20,29 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
+    [self.view addGestureRecognizer:tapGesture];
+}
+
+- (void)tap:(UITapGestureRecognizer*)gesture{
+    
+    if (!self.dataLabel.hidden) {
+        [UIView animateWithDuration:.5 animations:^{
+            self.dataLabel.alpha = 0.;
+        } completion:^(BOOL finished) {
+            self.dataLabel.hidden = YES;
+        }];
+        
+    }else{
+    
+        [UIView animateWithDuration:.5 animations:^{
+            self.dataLabel.hidden = NO;
+            self.dataLabel.alpha = 1.;
+        } completion:^(BOOL finished) {
+        }];
+
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -30,6 +55,8 @@
 {
     [super viewWillAppear:animated];
     self.dataLabel.text = [self.dataObject description];
+    self.dataLabel.font = [UIFont flatFontOfSize:200.];
+    self.dataLabel.textColor = [UIColor greenSeaColor];  
 }
 
 @end
